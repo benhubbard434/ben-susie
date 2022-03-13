@@ -38,4 +38,4 @@ span {color: #F0BC42;}
 .logo {width: 100%; padding: 100px 0;}
 .logo h2 {font-size: 64px; line-height: 70px;}
 
-
+.refresh {position: fixed; bottom: 5px; right: 5px;}
