@@ -35,7 +35,8 @@ span {color: #F0BC42;}
 .color-4 span {color: #2F3340;}
 .color-4 h2, .color-4 h4 {color:#A799B7;}
 
-.logo {width: 100%; padding: 20px;}
+.logo {width: 100%; padding: 0 20px;}
+.logo h2 {font-size: 64px;}
 .evening .color-1 {text-align: left;}
 .evening .color-2 {text-align: left;}
 .evening .color-3 {text-align: left;}
