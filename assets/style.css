@@ -35,8 +35,13 @@ span {color: #F0BC42;}
 .color-4 span {color: #2F3340;}
 .color-4 h2, .color-4 h4 {color:#A799B7;}
 
-.logo {width: 100%; padding: 100px 0;}
+.logo {width: 100%; padding: 200px 0;}
 .logo h2 {font-size: 64px; line-height: 70px;}
+
+.section {padding: 100px 0}
+.divider {width: 200px; height: 2px; background: #F0BC42}
+.color-2 .divider, .color-3 .divider {background:#A799B7;}
+.color-4 divider {background: #2F3340;}
 
 .refresh {position: fixed; bottom: 5px; right: 5px;}
 .refreshbutton {background: transparent; -webkit-appearance: none; border: 0; font-family: 'Gothic', serif;text-transform:uppercase; font-size:16px; letter-spacing: -0.1px;color:#D3D4D4;}
