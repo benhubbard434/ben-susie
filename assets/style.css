@@ -39,7 +39,7 @@ span {color: #F0BC42;}
 .logo h2 {font-size: 64px; line-height: 70px;}
 
 .section {padding: 100px 0}
-.divider {width: 200px; height: 2px; background: #F0BC42}
+.divider {width: 200px; height: 2px; background: #F0BC42; margin: 0 auto}
 .color-2 .divider, .color-3 .divider {background:#A799B7;}
 .color-4 divider {background: #2F3340;}
 
