@@ -41,4 +41,4 @@ span {color: #F0BC42;}
 .logo h2 {font-size: 64px; line-height: 70px;}
 
 .section {padding: 100px 0}
-.curves {margin-bottom: -3px;}
+.curves {margin-bottom: -3px; margin-right: -3px; margin-left:-3px;}
