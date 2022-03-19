@@ -41,10 +41,4 @@ span {color: #F0BC42;}
 .logo h2 {font-size: 64px; line-height: 70px;}
 
 .section {padding: 100px 0}
-.divider {width: 200px; height: 2px; background: #F0BC42; margin: 0 auto}
-.nude .divider, .pink .divider {background:#A799B7;}
-.yellow divider {background: #2F3340;}
-
-.refresh {position: fixed; bottom: 5px; right: 5px;}
-.refreshbutton {background: transparent; -webkit-appearance: none; border: 0; font-family: 'Gothic', serif;text-transform:uppercase; font-size:16px; letter-spacing: -0.1px;color:#D3D4D4;}
-.refreshbutton:hover {cursor:pointer}
+.curves {margin-bottom: -3px;}
