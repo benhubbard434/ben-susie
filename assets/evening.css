@@ -23,9 +23,9 @@ body {overflow-x: hidden;}
 .orange {background: #BF6A36;text-align: center; padding: 10px 20px;}
 .purple {background: #A799B7;text-align: center; padding: 10px 20px;}
 
-h2 {font-family: 'Archivo', serif; font-size: 38px;line-height:40px; letter-spacing:-1.34px;color:#D3D4D4;}
-h3 {font-family: 'Archivo', serif; font-size: 38px;line-height:40px; letter-spacing:-1.34px;color:#D3D4D4;}
-h4 {font-family: 'Gothic', serif;text-transform:uppercase; font-size:16px; letter-spacing: -0.1px;color:#D3D4D4;}
+h2 {font-family: 'Archivo', serif; font-size: 64px;line-height:70px; letter-spacing:-1.34px;color:#D3D4D4;}
+h3 {font-family: 'Archivo', serif; font-size: 32px;line-height:40px; letter-spacing:-1.34px;color:#D3D4D4; margin-bottom: 64px;}
+h4 {font-family: 'Gothic', serif;text-transform:uppercase; font-size:16px; letter-spacing: -0.1px;color:#D3D4D4; margin-bottom: 32px;}
 
 .navy h2 {color: #F0BC42;}
 
@@ -39,8 +39,8 @@ span {color: #F0BC42;}
 .yellow span {color: #2F3340;}
 .yellow h2, .yellow h4 {color:#A799B7;}
 
-.logo {width: 100%; padding: 200px 0;}
-.logo h2 {font-size: 64px; line-height: 70px;}
+.logo {width: 90%; padding: 200px 0; margin: 0 auto;}
+.logo h2 {}
 
 .section {padding: 100px 0}
 .curves {margin-bottom: -3px; margin-right: -3px; margin-left:-3px;}
