@@ -37,7 +37,8 @@ span {color: #F0BC42;}
 .nude h2, .nude h4, .pink h2, .pink h3, .pink h4 {color: #2F3340;}
 
 .yellow span {color: #2F3340;}
-.yellow h2, .yellow h4 {color:#A799B7;}
+.yellow h2 {color:#A799B7;}
+.yellow h4 {color: #2F3340;}
 
 .logo {width: 90%; padding: 200px 0; margin: 0 auto;}
 .logo h2 {}
