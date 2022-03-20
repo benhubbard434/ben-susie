@@ -31,7 +31,7 @@ h4 {font-family: 'Gothic', serif;text-transform:uppercase; font-size:16px; line-
 
 
 .home-head {margin-top:100px;margin-bottom:50px;}
-span {color: #F0BC42;}
+
 
 .nude span, .pink span {color:#A799B7;}
 .nude h2, .nude h4, .pink h2, .pink h3, .pink h4 {color: #2F3340;}
@@ -45,7 +45,8 @@ span {color: #F0BC42;}
 
 .section {padding: 100px 0}
 .section-header {margin-bottom: 64px;}
-s {text-decoration: line-through wavy;}
-.sectionthree {padding-top:2px;}
-.marquee {margin-bottom: 100px; font-family: 'Gothic', serif;text-transform:uppercase; font-size:16px; line-height: 20px; letter-spacing: -0.1px;color:#2F3340;}
+
+.wave {text-decoration-line: line-through;text-decoration-style: wavy;}
+.sectionthree {padding-top:5px;}
+.marquee {margin-bottom: 100px; font-family: 'Gothic', serif;text-transform:uppercase; font-size:16px; line-height: 20px; letter-spacing: -0.1px; color:#2F3340; border-top: 2px solid #2F3340; border-bottom: 2px solid #2F3340;  }
 .curves {margin-bottom: -3px; margin-right: -3px; margin-left:-3px;}
