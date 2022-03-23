@@ -16,6 +16,7 @@ html, body {overflow-x: hidden; background: #2F3340;}
 body {position: relative}
 
 .clear {clear:both;}
+input {border-radius: 0;-webkit-appearance: none;}
 
 .green {background: #485F55;text-align: center; padding: 10px 20px;}
 .nude {background: #DBB8A5;text-align: center; padding: 10px 20px;}
