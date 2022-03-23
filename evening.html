@@ -76,8 +76,11 @@
 	  	  	<div class="rsvp-form">
 	  	  		<!-- modify this form HTML and place wherever you want your form -->
 <form id="my-form" action="https://formspree.io/f/mdobdqbb" method="POST">
-  <input class="form-field" type="email" name="email" placeholder="Your email">
-  <input class="form-field" type="text" name="guest-1" placeholder="Your name" autocomplete="given-name">
+  <input class="form-field" type="email" name="email" placeholder="Your email" autocomplete="email">
+  	<fieldset class="names">
+  		<input class="first-name-style name-field" type="text" name="guest-1" placeholder="Your first name" autocomplete="given-name">
+  		<input class="second-name-style name-field" type="text" name="guest-1" placeholder="Your last name" autocomplete="family-name">
+  	</fieldset>
   <input class="form-field" type="text" name="guest-2" placeholder="Your partner's name">
   	<fieldset class="radio-buttons">
   		<legend>Can you join us?</legend>
@@ -86,7 +89,7 @@
   		<input class="radio-field" type="radio" id="no" name="rsvp" value="no">
   		<label for="no">No</label>  
   	</fieldset>
-  <input class="form-field" type="tel" name="phone" placeholder="Phone Number">
+  <input class="form-field" type="tel" name="phone" placeholder="Phone Number" autocomplete="tel">
   <input class="form-field" type="text" name="dietary" placeholder="Any dietary needs?">
   <button id="my-form-button">Submit</button>
   <p id="my-form-status"></p>
