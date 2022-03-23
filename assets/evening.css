@@ -50,15 +50,23 @@ h4 {font-family: 'Gothic', serif;text-transform:uppercase; font-size:16px; line-
 .section {padding: 100px 0}
 .section-header {margin-bottom: 64px;}
 .wave {text-decoration-line: line-through;text-decoration-style: wavy;}
-.sectionthree {padding-top:5px;}
+.sectionthree {padding-top:10px;}
 .marquee {margin-bottom: 100px; font-family: 'Gothic', serif;text-transform:uppercase; font-size:16px; line-height: 20px; letter-spacing: -0.1px; color:#2F3340; border-top: 1px solid #2F3340; border-bottom: 1px solid #2F3340;  }
 .curves {margin-bottom: -3px; margin-right: -3px; margin-left:-3px;}
 
 .form-field {display:block; border: 1px solid #2F3340; padding: 5px 12px;font-family: 'Gothic', serif;text-transform:uppercase; font-size:14px; line-height: 16px; letter-spacing: -0.1px;color:#2F3340;background: transparent; margin: 0 auto 10px auto; width: 400px; max-width: 75%;}
 .names {width: 400px; max-width: 75%; margin: 0 auto 10px auto;}
-.name-field {display:block; border: 1px solid #2F3340; padding: 5px 12px;font-family: 'Gothic', serif;text-transform:uppercase; font-size:14px; line-height: 16px; letter-spacing: -0.1px;color:#2F3340;background: transparent; margin: 0 auto 10px auto; width: 47.5%;}
+.name-field {display:block; border: 1px solid #2F3340; padding: 5px 12px;font-family: 'Gothic', serif;text-transform:uppercase; font-size:14px; line-height: 16px; letter-spacing: -0.1px;color:#2F3340;background: transparent; width: 47.5%;}
 .first-name-style {float: left; margin-right: 2.5%;}
 .second-name-style {float: right; margin-left: 2.5%}
+.form-field::-webkit-input-placeholder { /* Chrome/Opera/Safari */color: #2F3340;}
+.form-field::-moz-placeholder { /* Firefox 19+ */color: #2F3340;}
+.form-field:-ms-input-placeholder { /* IE 10+ */color: #2F3340;}
+.form-field:-moz-placeholder { /* Firefox 18- */color: #2F3340;}
+.name-field::-webkit-input-placeholder { /* Chrome/Opera/Safari */color: #2F3340;}
+.name-field::-moz-placeholder { /* Firefox 19+ */color: #2F3340;}
+.name-field:-ms-input-placeholder { /* IE 10+ */color: #2F3340;}
+.name-field:-moz-placeholder { /* Firefox 18- */color: #2F3340;}
 .radio-field {}
 .radio-buttons {margin-bottom: 10px;}
 .radio-buttons legend, .radio-buttons label {font-family: 'Gothic', serif;text-transform:uppercase; font-size:14px; line-height: 16px; letter-spacing: -0.1px;color:#2F3340;}
