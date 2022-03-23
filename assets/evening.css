@@ -49,3 +49,5 @@ h4 {font-family: 'Gothic', serif;text-transform:uppercase; font-size:16px; line-
 .sectionthree {padding-top:5px;}
 .marquee {margin-bottom: 100px; font-family: 'Gothic', serif;text-transform:uppercase; font-size:16px; line-height: 20px; letter-spacing: -0.1px; color:#2F3340; border-top: 1px solid #2F3340; border-bottom: 1px solid #2F3340;  }
 .curves {margin-bottom: -3px; margin-right: -3px; margin-left:-3px;}
+
+.form-field {display:block; border: 1px solid #2F3340; padding: 5px 12px;font-family: 'Gothic', serif;text-transform:uppercase; font-size:14px; line-height: 16px; letter-spacing: -0.1px;color:#D3D4D4;background: transparent;}
