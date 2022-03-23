@@ -16,7 +16,7 @@ html, body {overflow-x: hidden; background: #2F3340;}
 body {position: relative}
 
 .clear {clear:both;}
-input {border-radius: 0;-webkit-appearance: none;}
+
 
 .green {background: #485F55;text-align: center; padding: 10px 20px;}
 .nude {background: #DBB8A5;text-align: center; padding: 10px 20px;}
@@ -54,6 +54,9 @@ h4 {font-family: 'Gothic', serif;text-transform:uppercase; font-size:16px; line-
 .marquee {margin-bottom: 100px; font-family: 'Gothic', serif;text-transform:uppercase; font-size:16px; line-height: 20px; letter-spacing: -0.1px; color:#2F3340; border-top: 1px solid #2F3340; border-bottom: 1px solid #2F3340;  }
 .curves {margin-bottom: -3px; margin-right: -3px; margin-left:-3px;}
 
+/*form reset*/
+.form-field, .name-field, .button {-webkit-appearance: none;}
+/*form*/
 .form-field {display:block; border: 1px solid #2F3340; padding: 5px 12px;font-family: 'Gothic', serif;text-transform:uppercase; font-size:14px; line-height: 16px; letter-spacing: -0.1px;color:#2F3340;background: transparent; margin: 0 auto 10px auto; width: 400px; max-width: 75%;}
 .names {width: 400px; max-width: 75%; margin: 0 auto 10px auto;}
 .name-field {display:block; border: 1px solid #2F3340; padding: 5px 12px;font-family: 'Gothic', serif;text-transform:uppercase; font-size:14px; line-height: 16px; letter-spacing: -0.1px;color:#2F3340;background: transparent; width: 47.5%;}
