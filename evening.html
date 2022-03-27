@@ -134,8 +134,8 @@
 	  		<div class="tab-holder">
 	  			<ul id="tabs">
 
-      				<li><a id="tab1">test1</a></li>
-      				<li><a id="tab2">test2</a></li>
+      				<li><a id="tab1"><span class="navyspan"><i class="fa-solid fa-car"></i> Car</span></a></li>
+      				<li><a id="tab2"><span class="navyspan"><i class="fa-solid fa-train"></i> Train</span></a></li>
       
 				</ul>
 				<div class="tab-container" id="tab1C">1Some content</div>
@@ -314,5 +314,27 @@ $('.marquee').marquee({ speed: 15 });
     }
     form.addEventListener("submit", handleSubmit)
 </script>
-  </body>
+<!--Tabs-->
+<script type="text/javascript">
+	$(document).ready(function() {    
+
+$('#tabs li a:not(:first)').addClass('inactive');
+$('.tab-container').hide();
+$('.tab-container:first').show();
+    
+$('#tabs li a').click(function(){
+    var t = $(this).attr('id');
+  if($(this).hasClass('inactive')){ //this is the start of our condition 
+    $('#tabs li a').addClass('inactive');           
+    $(this).removeClass('inactive');
+    
+    $('.tab-container').hide();
+    $('#'+ t + 'C').fadeIn('slow');
+ }
+});
+
+});
+
+</script>
+</body>
 </html>
