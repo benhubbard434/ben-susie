@@ -26,10 +26,13 @@ body {position: relative}
 .maroon {background: #7E2622;text-align: center; padding: 10px 20px;}
 .orange {background: #BF6A36;text-align: center; padding: 10px 20px;}
 .purple {background: #A799B7;text-align: center; padding: 10px 20px;}
+.navyspan {color: #2F3340}
 
 h2 {font-family: 'Archivo', serif; font-size: 64px;line-height:70px; letter-spacing:-1.34px;color:#D3D4D4;}
 h3 {font-family: 'Archivo', serif; font-size: 32px;line-height:40px; letter-spacing:-1.34px;color:#D3D4D4; margin-bottom: 64px;}
 h4 {font-family: 'Gothic', serif;text-transform:uppercase; font-size:16px; line-height: 20px; letter-spacing: -0.1px;color:#D3D4D4; margin-bottom: 32px;}
+a {color: inherit;}
+a:visited {color: inherit;}
 
 .navy h2 {color: #F0BC42;}
 
