@@ -96,7 +96,7 @@ a{cursor:pointer}
 #tabs li a.inactive{padding-top:5px;padding-bottom:8px;padding-left:8px;padding-right:8px; color: inherit !important;}
 #tabs li a.inactive:hover,#tabs li a:hover{}
 #tabs p {font-size: 32px;}
-.tab-container{clear:both; width:100%; text-align:left; padding:20px}
+.tab-container{clear:both; width:100%; text-align:left; padding:20px; text-align: center;}
 
 
 
