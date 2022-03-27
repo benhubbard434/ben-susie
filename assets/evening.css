@@ -78,7 +78,7 @@ h4 {font-family: 'Gothic', serif;text-transform:uppercase; font-size:16px; line-
 .button:hover {box-shadow: 5px 5px #2F3340, 5px 5px 0 2px #11151c; cursor:pointer; top: 5px;left: 5px; box-shadow: 2px 2px #2F3340, 2px 2px 0 1px #11151c;}
 
 .add-to-calendar {padding: 10px; width: 300px; margin: 58px auto 50px auto; }
-
+.add-to-calendar h4 {margin-bottom: 10px;}
 
 
 
