@@ -92,9 +92,10 @@ p {font-family: 'Hind', sans-serif; font-size:16px; line-height: 20px;color:#D3D
 #tabs{width: 100%;padding-right:5px;}
 a{cursor:pointer}
 #tabs li{float:left;list-style:none;margin-right:5px;outline:0}
-#tabs li a{padding-top:5px;padding-left:7px;padding-right:7px;padding-bottom:8px;display:block; color: #F0BC42 !important;}
-#tabs li a.inactive{padding-top:5px;padding-bottom:8px;padding-left:8px;padding-right:8px;}
+#tabs li a{padding-top:5px;padding-left:7px;padding-right:7px;padding-bottom:8px;display:block; color: #F0BC42;}
+#tabs li a.inactive{padding-top:5px;padding-bottom:8px;padding-left:8px;padding-right:8px; color: inherit;}
 #tabs li a.inactive:hover,#tabs li a:hover{}
+#tabs p {font-size: 32px;}
 .tab-container{clear:both; width:100%; text-align:left; padding:20px}
 
 
