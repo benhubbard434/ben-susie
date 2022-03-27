@@ -95,11 +95,8 @@ a{cursor:pointer}
 #tabs li a{padding-top:5px;padding-left:7px;padding-right:7px;padding-bottom:8px;display:block; color: #F0BC42 !important;}
 #tabs li a.inactive{padding-top:5px;padding-bottom:8px;padding-left:8px;padding-right:8px;}
 #tabs li a.inactive:hover,#tabs li a:hover{}
-.tab-container{clear:both;width:100%;border-left:solid 1px #ccc;border-right:solid 1px #ccc;border-bottom:solid 1px #ccc;text-align:left;padding-top:20px}
-.tab-container h2{margin-left:15px;margin-right:15px;margin-bottom:10px;color:#5685bc}
-.tab-container p{margin-left:15px;margin-right:15px;margin-top:10px;margin-bottom:10px;line-height:1.3;font-size:small}
-.tab-container ul{margin-left:25px;font-size:small;line-height:1.4;list-style-type:disc}
-.tab-container li{padding-bottom:5px;margin-left:5px}
+.tab-container{clear:both; width:100%; text-align:left; padding:20px}
+
 
 
 
