@@ -88,8 +88,9 @@ p {font-family: 'Hind', sans-serif; font-size:16px; line-height: 20px;color:#D3D
 .no-margin-bottom {margin-bottom: 0;}
 
 /*tabs*/
-#tabs{width:100%;height:30px;border-bottom:solid 1px #ccc;padding-right:2px;margin-top:30px}a{cursor:pointer}
-#tabs li{float:left;list-style:none;border-top:1px solid #ccc;border-left:1px solid #ccc;border-right:1px solid #ccc;margin-right:5px;border-top-left-radius:3px;border-top-right-radius:3px;outline:0}
+#tabs{max-width:50%; width: 400px;padding-right:5px;margin-top:30px}
+a{cursor:pointer}
+#tabs li{float:left;list-style:none;margin-right:5px;outline:0}
 #tabs li a{padding-top:5px;padding-left:7px;padding-right:7px;padding-bottom:8px;display:block; color: #F0BC42;}
 #tabs li a.inactive{padding-top:5px;padding-bottom:8px;padding-left:8px;padding-right:8px;}
 #tabs li a.inactive:hover,#tabs li a:hover{color:#5685bc;outline:0}
