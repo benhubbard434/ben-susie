@@ -54,7 +54,7 @@ p {font-family: 'Hind', sans-serif; font-size:16px; line-height: 20px;color:#D3D
 .section-header {margin-bottom: 64px;}
 .wave {text-decoration-line: line-through;text-decoration-style: wavy;}
 .sectionthree {padding-top:10px;}
-.marquee {margin-bottom: 100px; font-family: 'Gothic', serif;text-transform:uppercase; font-size:16px; line-height: 20px; letter-spacing: -0.1px; color:#2F3340; border-top: 1px solid #2F3340; border-bottom: 1px solid #2F3340; width: 100% !important; }
+.marquee {margin-bottom: 100px; font-family: 'Gothic', serif;text-transform:uppercase; font-size:16px; line-height: 20px; letter-spacing: -0.1px; color:#2F3340; border-top: 1px solid #2F3340; border-bottom: 1px solid #2F3340; max-width: 100% !important; }
 .curves {margin-bottom: -3px; margin-right: -3px; margin-left:-3px;}
 
 /*form reset*/
