@@ -202,7 +202,8 @@
 	   <div class="section sectionsix navy">
 	  	<h4 class="section-header"><span class="wave">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>&nbsp;&nbsp;A guide to Cambridge&nbsp;&nbsp;<span class="wave">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></h4>
 	  </div>
-	  <script type="text/javascript">
+<!-- Marquee script -->
+<script type="text/javascript">
 	  	    (function($) {
         $.fn.textWidth = function(){
              var calc = '<span style="display:none">' + $(this).text() + '</span>';
@@ -268,8 +269,9 @@
     })(jQuery);
 
 $('.marquee').marquee({ speed: 15 });
-	  </script>
-	  <!-- Form -->
+</script>
+
+<!-- Form -->
 <script>
     var form = document.getElementById("my-form");
     
@@ -303,14 +305,4 @@ $('.marquee').marquee({ speed: 15 });
     form.addEventListener("submit", handleSubmit)
 </script>
   </body>
-	<!--<script>
-      // Change the 10 in random Numberto the total number of custom styles you have
-      // Change the 'header-image-' to something more relevant if you're not working with header images
-        var randomNumber =  Math.floor( (Math.random() * 8) + 1 ),
-	        bodyClass = 'color-' + randomNumber,
-	        body = document.getElementsByTagName( 'body' )[0];
-
-      // Apply the random body class to the body element
-        body.classList.add( bodyClass );
-    </script>-->
 </html>
