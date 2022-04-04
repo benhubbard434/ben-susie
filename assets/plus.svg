@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="86px" height="86px" viewBox="0 0 86 86" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>Group</title>
-    <g id="Website-assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Logo" transform="translate(-353.000000, -207.000000)" fill="#BF6A36">
-            <g id="Group" transform="translate(396.250000, 250.250000) rotate(45.000000) translate(-396.250000, -250.250000) translate(366.250000, 220.250000)">
-                <rect id="Rectangle" x="0" y="20.1900543" width="60" height="20.3389831" rx="3"></rect>
-                <path d="M3.30304576,19.7142857 L57.3030458,19.7142857 C58.9599,19.7142857 60.3030458,21.0574315 60.3030458,22.7142857 L60.3030458,37.2857143 C60.3030458,38.9425685 58.9599,40.2857143 57.3030458,40.2857143 L3.30304576,40.2857143 C1.64619151,40.2857143 0.303045763,38.9425685 0.303045763,37.2857143 L0.303045763,22.7142857 C0.303045763,21.0574315 1.64619151,19.7142857 3.30304576,19.7142857 Z" id="Rectangle" transform="translate(30.303046, 30.000000) rotate(90.000000) translate(-30.303046, -30.000000) "></path>
-            </g>
+<svg width="300px" height="300px" viewBox="0 0 300 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Plus</title>
+    <g id="Plus" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#FFFFFF" opacity="0" x="0" y="0" width="300" height="300"></rect>
+        <g id="Group" transform="translate(150.250000, 149.750000) rotate(45.000000) translate(-150.250000, -149.750000) translate(0.250000, -0.250000)" fill="#BF6A36">
+            <rect id="Rectangle" x="1.13686838e-13" y="102.805183" width="300" height="101.486989" rx="3"></rect>
+            <path d="M4.76776695,98.5 L298.767767,98.5 C300.424621,98.5 301.767767,99.8431458 301.767767,101.5 L301.767767,198.5 C301.767767,200.156854 300.424621,201.5 298.767767,201.5 L4.76776695,201.5 C3.1109127,201.5 1.76776695,200.156854 1.76776695,198.5 L1.76776695,101.5 C1.76776695,99.8431458 3.1109127,98.5 4.76776695,98.5 Z" id="Rectangle" transform="translate(151.767767, 150.000000) rotate(90.000000) translate(-151.767767, -150.000000) "></path>
         </g>
     </g>
 </svg>
