@@ -62,10 +62,10 @@ p {font-family: 'Hind', sans-serif; font-size:16px; line-height: 20px;color:#D3D
 .plus {display: inline-block; width:40px; margin: 0 8px; animation: rotate 12s infinite;}
 @keyframes rotate{
   0%{transform: rotate(0deg);}
-  25%{transform: rotate(90deg);}
-  50%{transform: rotate(180deg);}
-  75%{transform: rotate(270deg);}
-  100%{transform: rotate(360deg);}
+  25%{transform: rotate(405deg);}
+  50%{transform: rotate(810deg);}
+  75%{transform: rotate(1215deg);}
+  100%{transform: rotate(1620deg);}
 }
 
 .section {padding: 100px 0}
