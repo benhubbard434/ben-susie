@@ -59,7 +59,14 @@ p {font-family: 'Hind', sans-serif; font-size:16px; line-height: 20px;color:#D3D
 .logo {width: 90%; padding: 200px 0; margin: 0 auto;}
 .logo h2 {}
 .logo-sub-head {font-family: 'Hesterica', sans-serif; color:#BF6A36 !important;font-size: 128px; transform: rotate(-5deg); margin-top: 0px;}
-.plus {display: inline-block; width:40px; margin: 0 8px;}
+.plus {display: inline-block; width:40px; margin: 0 8px; animation: rotate 12s infinite;}
+@keyframes rotate{
+  0%{transform: rotate(0deg);}
+  25%{transform: rotate(90deg);}
+  50%{transform: rotate(180deg);}
+  75%{transform: rotate(270deg);}
+  100%{transform: rotate(360deg);}
+}
 
 .section {padding: 100px 0}
 .section-header {margin-bottom: 64px;}
