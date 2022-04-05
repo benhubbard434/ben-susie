@@ -121,12 +121,12 @@ a{cursor:pointer}
 @media screen and (max-width: 420px) {
 	
 	.logo h2 {font-size: 48px}
-	.logo-sub-head {font-size: 90px !important;margin-top: -15px;}
+	.logo-sub-head {font-size: 90px !important;margin-top: -22px;}
 }
 
 @media screen and (max-width: 330px) {
 	
 	.logo h2 {font-size: 40px}
-	.logo-sub-head {font-size: 80px !important;margin-top: -20px;}
+	.logo-sub-head {font-size: 80px !important;margin-top: -25px;}
 }
 
