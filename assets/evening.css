@@ -24,14 +24,14 @@ body {position: relative}
 .clear {clear:both;}
 
 
-.green {background: #485F55;text-align: center; padding: 10px 20px;}
-.nude {background: #DBB8A5;text-align: center; padding: 10px 20px;}
-.pink {background: #FCB9B2;text-align: center; padding: 10px 20px;}
-.yellow {background: #F0BC42;text-align: center; padding: 10px 20px;}
-.navy {background: #2F3340;text-align: center; padding: 10px 20px;}
-.maroon {background: #7E2622;text-align: center; padding: 10px 20px;}
-.orange {background: #BF6A36;text-align: center; padding: 10px 20px;}
-.purple {background: #A799B7;text-align: center; padding: 10px 20px;}
+.green {background: #485F55;text-align: center; padding-left: 30px; padding-right: 30px;}
+.nude {background: #DBB8A5;text-align: center; padding-left: 30px; padding-right: 30px;}
+.pink {background: #FCB9B2;text-align: center; padding-left: 30px; padding-right: 30px;}
+.yellow {background: #F0BC42;text-align: center; padding-left: 30px; padding-right: 30px;}
+.navy {background: #2F3340;text-align: center; padding-left: 30px; padding-right: 30px;}
+.maroon {background: #7E2622;text-align: center; padding-left: 30px; padding-right: 30px;}
+.orange {background: #BF6A36;text-align: center; padding-left: 30px; padding-right: 30px;}
+.purple {background: #A799B7;text-align: center; padding-left: 30px; padding-right: 30px;}
 .navyspan {color: #2F3340}
 .purplespan {color: #A799B7;}
 .yellowspan {color: #F0BC42;}
@@ -68,7 +68,7 @@ p {font-family: 'Hind', sans-serif; font-size:16px; line-height: 20px;color:#D3D
   100%{transform: rotate(1620deg);}
 }
 
-.section {padding: 100px 25px}
+.section {padding-top: 100px; padding-bottom: 100px;}
 .section-header {margin-bottom: 64px;}
 .wave {text-decoration-line: line-through;text-decoration-style: wavy;}
 .sectionthree {padding-top:10px;}
