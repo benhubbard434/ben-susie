@@ -68,7 +68,7 @@ p {font-family: 'Hind', sans-serif; font-size:16px; line-height: 20px;color:#D3D
   100%{transform: rotate(1620deg);}
 }
 
-.section {padding: 100px 0}
+.section {padding: 100px 25px}
 .section-header {margin-bottom: 64px;}
 .wave {text-decoration-line: line-through;text-decoration-style: wavy;}
 .sectionthree {padding-top:10px;}
@@ -104,16 +104,7 @@ p {font-family: 'Hind', sans-serif; font-size:16px; line-height: 20px;color:#D3D
 .little-margin-bottom {margin-bottom: 10px;}
 .no-margin-bottom {margin-bottom: 0;}
 
-/*tabs*/
-.tab-holder {width: 400px; max-width: 95%; margin: 0 auto;}
-#tabs{display: inline-block;margin: 0 auto;}
-a{cursor:pointer}
-#tabs li{float:left;list-style:none;margin: 0 10px;0}
-#tabs li a{padding-top:5px;padding-left:7px;padding-right:7px;padding-bottom:8px;display:block; color: #F0BC42;}
-#tabs li a.inactive{padding-top:5px;padding-bottom:8px;padding-left:8px;padding-right:8px; color: inherit !important;}
-#tabs li a.inactive:hover,#tabs li a:hover{}
-#tabs p {font-size: 32px;}
-.tab-container{clear:both; width:100%; text-align:left; padding:20px; text-align: center;}
+
 
 
 
