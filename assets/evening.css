@@ -69,10 +69,10 @@ p {font-family: 'Hind', sans-serif; font-size:16px; line-height: 20px;color:#D3D
 }
 
 .section {padding-top: 100px; padding-bottom: 100px;}
-.section-header {margin-bottom: 64px;margin-top: 46px;}
+.section-header {margin-bottom: 64px;margin-top: 96px;}
 .wave {text-decoration-line: line-through;text-decoration-style: wavy;}
 .sectionthree {padding-top:10px;}
-.marquee {font-family: 'Gothic', serif;text-transform:uppercase; font-size:16px; line-height: 20px; letter-spacing: -0.1px; color:#2F3340; border-top: 1px solid #2F3340; border-bottom: 1px solid #2F3340; max-width: 100% !important; }
+.marquee {font-family: 'Gothic', serif;text-transform:uppercase; font-size:16px; line-height: 20px; letter-spacing: -0.1px; color:#2F3340; border-top: 1px solid #2F3340; border-bottom: 1px solid #2F3340; max-width: 100% !important; margin-bottom: 0; background:#F0BC42; }
 .curves {margin-bottom: -3px; margin-right: -3px; margin-left:-3px;}
 
 /*form reset*/
