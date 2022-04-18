@@ -118,7 +118,8 @@
   		<input class="second-name-style name-field" type="text" name="guest-1" placeholder="Your last name" autocomplete="family-name">
   		<div class="clear"></div>
   	</fieldset>
-  <input class="form-field" type="text" name="guest-2" placeholder="Your partner's name">
+  <input class="form-field" type="text" name="guest-2" id="myDIV" style="display: none;"placeholder="Your partner's name">
+  <a href="javascript:void(0);" onclick="myFunction()" class="plusonebutton"><i class="fa-solid fa-circle-plus"></i>I've got a plus one!</a>
   	<fieldset class="radio-buttons">
   		<legend>Can you join us?</legend>
   		<input class="radio-field" type="radio" id="yes" name="rsvp" value="yes">
@@ -208,7 +209,7 @@
 	  	
 	  	<h3 class="little-margin-bottom">Gifts</h3>
 	  	<p>A note on gifts. We’re super lucky to have a house full of furniture. If you’d like to give us<br>a gift we’d love you to contribute toward our honeymoon!</p>
-	  	<a href="https://patchworkit.com/42973/ben-susie" class="button purple-button"><i class="fa-solid fa-plane-departure"></i> Honeymoon!</a>
+	  	<a href="https://patchworkit.com/42973/ben-susie" target="_blank" class="button purple-button"><i class="fa-solid fa-plane-departure"></i> Contribute to the honeymoon!</a>
 	  	<h3 class="little-margin-bottom" style="margin-top: 50px;">Little ones</h3>
 	  	<p>This event will be a night off for<br>the parents. We hope you can still make it!</p>
 	  	
@@ -238,8 +239,11 @@
 	  </div>
 	   <div class="section sectionsix navy">
 	  	<h4 class="section-header"><span class="wave yellowspan">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>&nbsp;&nbsp;The next day&nbsp;&nbsp;<span class="wave yellowspan">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></h4>
+	  	<p>If you're staying the night in Cambridge, we'd love for you to join us for lunch the following day. We'll let you know where nearer the time.</p>
+	  	<p><a href="https://benandsusie.co.uk/cambridge" class="button">Things to do in Cambridge</a></p>
 	  </div>
 <!-- Marquee script -->
+<!--
 <script type="text/javascript">
 	  	    (function($) {
         $.fn.textWidth = function(){
@@ -306,7 +310,74 @@
     })(jQuery);
 
 $('.marquee').marquee({ speed: 15 });
-</script>
+</script>-->
+<script type="text/javascript">
+(function($) {
+        $.fn.textWidth = function(){
+            return $(this).width();
+        };
+
+        $.fn.marquee = function(args) {
+            var that = $(this);
+            var $textWidth = that.textWidth(),
+                offset = that.width(),
+                width = offset,
+                css = {
+                    'text-indent' : that.css('text-indent'),
+                    'overflow' : that.css('overflow'), 
+                    'white-space' : that.css('white-space')
+                },
+                marqueeCss = {
+                    'text-indent' : width,
+                    'overflow' : 'hidden',
+                    'white-space' : 'nowrap'
+                },
+                args = $.extend(true, { count: -1, speed: 1e1, leftToRight: false }, args),
+                i = 0,
+                stop = $textWidth*-1,
+                dfd = $.Deferred();
+            function go() {
+                if (that.data('isStopped') != 1)
+                {
+                if(!that.length) return dfd.reject();
+                if(width == stop) {
+                    i++;
+                    if(i == args.count) {
+                        that.css(css);
+                        return dfd.resolve();
+                    }
+                    if(args.leftToRight) {
+                        width = $textWidth*-1;
+                    } else {
+                        width = offset;
+                    }
+                }
+                that.css('text-indent', width + 'px');
+                if(args.leftToRight) {
+                    width++;
+                } else {
+                    width--;
+                }
+            }
+                
+                setTimeout(go, 10);
+            };
+            if(args.leftToRight) {
+                width = $textWidth*-1;
+                width++;
+                stop = offset;
+            } else {
+                width--;            
+            }
+            that.css(marqueeCss);
+            that.data('isStopped', 0);
+            that.bind('mouseover', function() { $(this).data('isStopped', 1); }).bind('mouseout', function() { $(this).data('isStopped', 0); });
+            go();
+            return dfd.promise();
+        };        
+    })(jQuery);
+        $('.marquee').marquee();
+      </script>
 
 <!-- Form -->
 <script>
@@ -341,6 +412,16 @@ $('.marquee').marquee({ speed: 15 });
     }
     form.addEventListener("submit", handleSubmit)
 </script>
-
+<!-- Plus one selector -->
+<script>
+function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
 </body>
 </html>
