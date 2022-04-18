@@ -96,7 +96,7 @@ p {font-family: 'Hind', sans-serif; font-size:16px; line-height: 20px;color:#D3D
 .radio-field {}
 .radio-buttons {margin-bottom: 10px;}
 .radio-buttons legend, .radio-buttons label {font-family: 'Gothic', serif;text-transform:uppercase; font-size:14px; line-height: 16px; letter-spacing: -0.1px;color:#2F3340;}
-.plusonebutton {font-family: 'Gothic', serif;text-transform:uppercase; font-size:16px; line-height: 20px; letter-spacing: -0.1px;color:#2F3340; margin-bottom: 10px; max-width: 95%;margin-left: auto; margin-right: auto; display: block text-decoration:none;}
+.plusonebutton {font-family: 'Gothic', serif;text-transform:uppercase; font-size:16px; line-height: 20px; letter-spacing: -0.1px;color:#2F3340; margin-bottom: 10px; max-width: 95%;margin-left: auto; margin-right: auto; display: block; text-decoration:none;}
 
 .button {border: 2px solid #11151c; background: #BF6A36; padding: 12px 8px; box-shadow: 5px 5px #2F3340, 5px 5px 0 2px #11151c; color: #D3D4D4 !important; border-radius: 5px; position: relative; top: 0px;left; 0px; text-decoration: none; font-family: 'Gothic', serif;text-transform:uppercase; font-size:14px; line-height: 16px; letter-spacing: -0.1px;}
 .button:hover {box-shadow: 5px 5px #2F3340, 5px 5px 0 2px #11151c; cursor:pointer; top: 5px;left: 5px; box-shadow: 2px 2px #2F3340, 2px 2px 0 1px #11151c;}
