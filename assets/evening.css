@@ -108,6 +108,8 @@ p {font-family: 'Hind', sans-serif; font-size:16px; line-height: 20px;color:#D3D
 .little-margin-bottom {margin-bottom: 10px;}
 .no-margin-bottom {margin-bottom: 0;}
 
+/*Photos*/
+.photo-reel {float: left; width: 12.5%;}
 
 /* menu */
 .menu {position: fixed;top: 20px; left: 20px;width: 150px; z-index: 1; transition: all 0.5s;}
