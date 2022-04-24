@@ -116,7 +116,7 @@ p {font-family: 'Hind', sans-serif; font-size:16px; line-height: 20px;color:#D3D
 .menu ul li a {font-family: 'Gothic', serif; text-transform:uppercase; font-size:14px; line-height: 15px; letter-spacing: -0.1px;color:#A799B7; margin-bottom: 8px; display: block; text-decoration: none;}
 
 /* menu button */
-.collapsible {background-color: #A799B7; border: 2px solid #2F3340;  color: #2F3340; cursor: pointer; padding: 10px; width: 37px; text-align: left; outline: none; font-size: 15px;}
+.collapsible {background-color: #A799B7; border: 2px solid #2F3340;  color: #2F3340; cursor: pointer; padding: 10px; width: 37px; text-align: left; outline: none; font-size: 15px; border-radius: 3px;}
 .active, .collapsible:hover {background-color: #2F3340; color: #A799B7; cursor: pointer;}
 .collapse-content { padding: 8px 8px 0 8px; display: none; overflow: hidden; background-color: #2F3340; color: #D3D4D4; border-radius: 3px; margin-top: 10px}
 
