@@ -220,8 +220,8 @@
 	  	<h3 class="little-margin-bottom" id="gifts">Gifts</h3>
 	  	<p>A note on gifts. We’re super lucky to have a house full of furniture. If you’d like to give us<br>a gift we’d love you to contribute toward our honeymoon!</p>
 	  	<a href="https://patchworkit.com/42973/ben-susie" target="_blank" class="button purple-button"><i class="fa-solid fa-plane-departure"></i> Contribute to the honeymoon!</a>
-	  	<h3 class="little-margin-bottom" style="margin-top: 50px;" id="children">Little ones</h3>
-	  	<p>This event will be a night off for<br>the parents. We hope you can still make it!</p>
+	  	<h3 class="little-margin-bottom" style="margin-top: 75px;" id="children">Little ones</h3>
+	  	<p>Unfortuantely, this event will be a night off for<br>the parents. We hope you can still make it!</p>
 	  	
 	  	</div>
 	  </div>
@@ -257,18 +257,21 @@
 
 
 	  <div id="customID" class="menu hide">
-	  	<ul>
-	  		<li><a href="#when">When</a></li>
-	  		<li><a href="#where">Where</a></li>
-	  		<li><a href="#rsvp">RSVP</a></li>
-	  		<li><a href="#how-to-get-here">Getting there</a></li>
-	  		<li><a href="#how-to-get-home">Getting home & accomodation</a></li>
-	  		<li><a href="#order-of-the-day">Order of the day</a></li>
-	  		<li><a href="#gifts">Gifts</a></li>
-	  		<li><a href="#children">Children</a></li>
-	  		<li><a href="#add">Add to your calendar</a></li>
-	  		<li><a href="#things-to-do-in-cambridge">The next day</a></li>
-	  	</ul>
+	  	<button type="button" class="collapsible">Open Collapsible</button>
+		<div class="collapse-content">
+  		  	<ul>
+	  			<li><a href="#when">When</a></li>
+	  			<li><a href="#where">Where</a></li>
+	  			<li><a href="#rsvp">RSVP</a></li>
+	  			<li><a href="#how-to-get-here">Getting there</a></li>
+	  			<li><a href="#how-to-get-home">Getting home & accomodation</a></li>
+	  			<li><a href="#order-of-the-day">Order of the day</a></li>
+	  			<li><a href="#gifts">Gifts</a></li>
+	  			<li><a href="#children">Children</a></li>
+	  			<li><a href="#add">Add to your calendar</a></li>
+	  			<li><a href="#things-to-do-in-cambridge">The next day</a></li>
+	  		</ul>
+	  	</div>
 	  </div>
 
 <!-- Marquee-->
@@ -391,7 +394,7 @@ function myFunction() {
 
 var myScrollFunc = function() {
   var y = window.scrollY;
-  if (y >= 200) {
+  if (y >= 400) {
     myID.className = "menu show"
   } else {
     myID.className = "menu hide"
