@@ -257,7 +257,7 @@
 
 
 	  <div id="customID" class="menu hide">
-	  	<button type="button" class="collapsible">Open Collapsible</button>
+	  	<button type="button" class="collapsible"><i class="fa-solid fa-bars"></i></button>
 		<div class="collapse-content">
   		  	<ul>
 	  			<li><a href="#when">When</a></li>
@@ -402,6 +402,23 @@ var myScrollFunc = function() {
 };
 
 window.addEventListener("scroll", myScrollFunc);
+</script>
+<!-- collapsible menu-->
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
 </script>
 </body>
 </html>
