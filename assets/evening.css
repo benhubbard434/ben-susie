@@ -123,6 +123,8 @@ p {font-family: 'Hind', sans-serif; font-size:16px; line-height: 20px;color:#D3D
 .active, .collapsible:hover {background-color: #2F3340; color: #A799B7; cursor: pointer;}
 .collapse-content { padding: 8px 8px 0 8px; display: none; overflow: hidden; background-color: #2F3340; color: #D3D4D4; border-radius: 3px; margin-top: 10px}
 
+/*Order of the day*/
+.day-event {float: left; width: 25%;}
 
 @media screen and (max-width: 420px) {
 	
