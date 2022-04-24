@@ -109,6 +109,28 @@ p {font-family: 'Hind', sans-serif; font-size:16px; line-height: 20px;color:#D3D
 .no-margin-bottom {margin-bottom: 0;}
 
 
+/* menu */
+
+.menu {
+    position: fixed;
+    top: 20px;
+    left:20px;
+    width: 60px;
+    height: 60px;
+    border-radius:50%;
+    background: red;
+    z-index: 1;
+    transition: all 1s;
+}
+.hide {
+    opacity:0;
+    left:-100%;
+}
+.show {
+    opacity:1;
+    left:0;
+}
+
 
 
 

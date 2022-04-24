@@ -115,14 +115,14 @@
 	  	  	<div class="rsvp-form">
 	  	  		<!-- modify this form HTML and place wherever you want your form -->
 <form id="my-form" action="https://formspree.io/f/mdobdqbb" method="POST">
-  <input class="form-field" type="email" name="email" placeholder="Your email" autocomplete="email">
+  
   	<fieldset class="names">
   		<input class="first-name-style name-field" type="text" name="guest-1" placeholder="Your first name" autocomplete="given-name">
   		<input class="second-name-style name-field" type="text" name="guest-1" placeholder="Your last name" autocomplete="family-name">
   		<div class="clear"></div>
   	</fieldset>
   <input class="form-field" type="text" name="guest-2" id="myDIV" style="display: none;"placeholder="Your partner's name">
-  <a href="javascript:void(0);" onclick="myFunction()" class="plusonebutton"><i class="fa-solid fa-circle-plus"></i>&nbsp;I've got a plus one!</a>
+  <a href="javascript:void(0);" onclick="myFunction()" class="plusonebutton"><i class="fa-solid fa-circle-plus"></i>&nbsp;My invite says I've got a plus one!</a>
   	<fieldset class="radio-buttons">
   		<legend>Can you join us?</legend>
   		<input class="radio-field" type="radio" id="yes" name="rsvp" value="yes">
@@ -130,8 +130,9 @@
   		<input class="radio-field" type="radio" id="no" name="rsvp" value="no">
   		<label for="no">No</label>  
   	</fieldset>
+  <input class="form-field" type="email" name="email" placeholder="Your email" autocomplete="email">
   <input class="form-field" type="tel" name="phone" placeholder="Phone Number" autocomplete="tel">
-  <input class="form-field" type="text" name="dietary" placeholder="Any dietary needs?">
+  <input class="form-field" type="text" name="dietary" placeholder="Any dietary requirements?">
   <button id="my-form-button" class="button">Let us know!</button>
   <p id="my-form-status"></p>
 </form>
@@ -432,6 +433,22 @@ function myFunction() {
     x.style.display = "block";
   }
 }
+</script>
+<!--Scroll menu-->
+<script type="text/javascript">
+	
+	myID = document.getElementById("customID");
+
+var myScrollFunc = function() {
+  var y = window.scrollY;
+  if (y >= 800) {
+    myID.className = "menu show"
+  } else {
+    myID.className = "menu hide"
+  }
+};
+
+window.addEventListener("scroll", myScrollFunc);
 </script>
 </body>
 </html>
