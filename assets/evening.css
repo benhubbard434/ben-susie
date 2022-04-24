@@ -134,6 +134,7 @@ p {font-family: 'Hind', sans-serif; font-size:16px; line-height: 20px;color:#D3D
 	.nomobile {display: none;}
 	.section-holder {max-width: 85%;}
 	.photo-reel {width: 25%;}
+	.day-event {float: left; width: 50%;margin-bottom: 10px;}
 }
 
 @media screen and (max-width: 330px) {
@@ -142,6 +143,6 @@ p {font-family: 'Hind', sans-serif; font-size:16px; line-height: 20px;color:#D3D
 	.logo-sub-head {font-size: 80px !important;margin-top: -25px;}
 	.nomobile {display: none;}
 	.section-holder {max-width: 100%;}
-	.day-event {float: left; width: 50%;margin-bottom: 10px;}
+	
 }
 
