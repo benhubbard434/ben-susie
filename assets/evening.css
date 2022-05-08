@@ -129,6 +129,8 @@ p {font-family: 'Hind', sans-serif; font-size:16px; line-height: 20px;color:#D3D
 .day-event {float: left; width: 25%;}
 .emoji {font-size: 36px; display: block}
 
+.footer {padding-top: 25px;}
+
 @media screen and (max-width: 520px) {
 	
 	.logo h2 {font-size: 48px}
