@@ -33,7 +33,7 @@ body {position: relative}
 .orange {background: #BF6A36;text-align: center; padding-left: 30px; padding-right: 30px;}
 .purple {background: #A799B7;text-align: center; padding-left: 30px; padding-right: 30px;}
 .navyspan {color: #2F3340}
-.purplespan {color: #A799B7;}
+.purplespan {color: #A799B7 !important;}
 .yellowspan {color: #F0BC42;}
 .orangespan {color: #BF6A36;}
 
