@@ -130,6 +130,7 @@ p {font-family: 'Hind', sans-serif; font-size:16px; line-height: 20px;color:#D3D
 .emoji {font-size: 36px; display: block}
 
 .footer {padding-top: 50px;}
+.cta {text-align: center; margin-bottom: 100px;}
 
 @media screen and (max-width: 520px) {
 	
