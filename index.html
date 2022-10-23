@@ -79,16 +79,23 @@
   enctype="multipart/form-data"
   id="my-form"
 >
-                <label>
-                  Your email:
-                  <input type="email" name="email">
-                </label>
+              <div class="photo-form-field">
+                
+                  <input type="email" name="email" class="form-field" placeholder="Email address">
+                
+              </div>
+              <div class="photo-form-field">
                 <label>
                   Your file:
                   <input type="file" name="upload">
                 </label>
-              <button type="submit">Send</button>
-              <div id="my-form-status"></div>
+            </div>
+            <div class="photo-form-field">
+              <button type="submit" class="button">Send</button>
+            </div>
+            <div class="status-field">
+              <p id="my-form-status"></div>
+            </div>
             </form>
           </div>
     </div>
