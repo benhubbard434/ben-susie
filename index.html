@@ -40,6 +40,34 @@
     </script>
   
     
+    <!--- alternate file upload script --->
+    <style>
+    .custom-file-input{
+        display: inline-block;
+		overflow: hidden;
+        position: relative;
+    }
+    .custom-file-input input[type="file"]{
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 999;
+    }
+</style>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $('.custom-file-input input[type="file"]').change(function(e){
+            $(this).siblings('input[type="text"]').val(e.target.files[0].name);
+        });
+    });
+</script>
+    
+    
+    
   </head>
   <body>
     <div class="logo navy">
@@ -84,11 +112,20 @@
                   <input type="email" name="email" class="form-field" placeholder="Email address">
 
               </div>
-              <div class="photo-form-field">
+              <!--<div class="photo-form-field">
                 <label style="cursor: pointer; padding: 12px; border: 1px dashed #2F3340; font-family: 'Gothic', serif; text-transform: uppercase; font-size: 10px; line-height: 20px; letter-spacing: -0.1px;margin-top:25px; display:inline-block;margin-bottom:5px;">
                   Choose your photo or video
                   <input type="file" multiple name="upload" style="width: 0.1px; height: 0.1px; opacity: 0;overflow: hidden;	position: absolute;	z-index: -1;">
                 </label>
+            </div>-->
+  
+  
+            <div class="alternate-upload">
+                <div class="custom-file-input">
+            <input type="file">
+            <input type="text">
+            <input type="button" value="Attach">
+        </div>
             </div>
             <div style="">
               <p>Upload up to 4 files at once. Got more than 4 files? <a href="mailto:rsvp@benandsusie.co.uk" style="#D3D4D4">Email them</a> to us!
