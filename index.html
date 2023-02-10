@@ -101,37 +101,7 @@
       <div class="section-holder" id="when">
           <h4 class="section-header"><span class="wave">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>&nbsp;&nbsp;Upload photos & videos&nbsp;&nbsp;<span class="wave">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></h4>
             <!-- modify this form HTML and place wherever you want your form -->
-<form
-  action="https://formspree.io/f/xjvzenrz"
-  method="POST"
-  enctype="multipart/form-data"
-  id="my-form"
->
-              <div class="photo-form-field">
 
-                  <input type="email" name="email" class="form-field" placeholder="Email address">
-
-              </div>
-              
-  
-  
-            <div class="alternate-upload">
-                <div class="custom-file-input">
-            <input type="file" multiple>
-            <input type="text" class="form-field" style="display:inline;">
-            <input type="button" value="Attach" style="border: 2px solid #11151c; background: #BF6A36; padding: 12px 8px; color: #D3D4D4 !important; border-radius: 5px; text-decoration: none;font-family: 'Gothic', serif; text-transform: uppercase; font-size: 12px; line-height: 14px; letter-spacing: -0.1px;">
-        </div>
-            </div>
-            <div style="">
-              <p>Upload up to 4 files at once. Got more than 4 files? <a href="mailto:rsvp@benandsusie.co.uk" style="#D3D4D4">Email them</a> to us!
-            </div>
-            <div class="photo-form-field" style="margin-top:25px;">
-              <button type="submit" class="button">Upoad your files</button>
-            </div>
-            <div class="status-field" style="margin-top:25px;">
-              <p id="my-form-status"></div>
-            </div>
-            </form>
           <div classs="photo-area">
             <p>We'll be adding a selection of photos from our guests, as well as Simon, our photographer, over the coming days and weeks. The previews we've seen from Simon are AMAZING!</p>
             <p>We can't wait to share them!</p>
@@ -168,38 +138,6 @@
       </div>
      </div>
 
-<!-- Form -->
-<script>
-    var form = document.getElementById("my-form");
-    
-    async function handleSubmit(event) {
-      event.preventDefault();
-      var status = document.getElementById("my-form-status");
-      var data = new FormData(event.target);
-      fetch(event.target.action, {
-        method: form.method,
-        body: data,
-        headers: {
-            'Accept': 'application/json'
-        }
-      }).then(response => {
-        if (response.ok) {
-          status.innerHTML = "Thanks for your submission!";
-          form.reset()
-        } else {
-          response.json().then(data => {
-            if (Object.hasOwn(data, 'errors')) {
-              status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
-            } else {
-              status.innerHTML = "Oops! There was a problem submitting your form"
-            }
-          })
-        }
-      }).catch(error => {
-        status.innerHTML = "Oops! There was a problem submitting your form"
-      });
-    }
-    form.addEventListener("submit", handleSubmit)
-</script>
+
 </body>
 </html>
