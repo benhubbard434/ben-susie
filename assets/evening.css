@@ -115,7 +115,7 @@ p {font-family: 'Hind', sans-serif; font-size:16px; line-height: 20px;color:#D3D
 .photo-reel {float: left; width: 12.5%;}
 
 
-.photo-gallery img {max-width: 100%;}
+.photo-gallery img {max-width: 100%; display:block;}
 
 /* menu */
 .menu {position: fixed;top: 20px; left: 20px;width: 150px; z-index: 1; transition: all 0.5s;}
