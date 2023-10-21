@@ -28,6 +28,8 @@ h4 {font-family: 'Gothic', serif;text-transform:uppercase; font-size:16px; lette
 
 .home-head {margin-top:100px;margin-bottom:50px;}
 span {color: #F0BC42;}
+.home-img {width:100%; margin-top: 10px; margin-bottom: 40px;}
+
 
 .color-2 span, .color-3 span {color:#A799B7;}
 .color-2 h2, .color-2 h4, .color-3 h2, .color-3 h4 {color: #2F3340;}
